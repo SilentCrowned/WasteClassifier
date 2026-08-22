@@ -230,7 +230,7 @@ void loop() {
 
       if (strcmp(bb.label, "biodegradable") == 0) cmd = "CMD-B";
       else if (strcmp(bb.label, "nonbiodegradable") == 0) cmd = "CMD-NB";
-      else if (strcmp(bb.label, "recyclable") cmd = "CMD-R";
+      else if (strcmp(bb.label, "recyclable") == 0) cmd = "CMD-R";
       else if (strcmp(bb.label, "specialwastes") == 0 || strcmp(bb.label, "special") == 0) cmd = "CMD-P";
 
       if (cmd) {
